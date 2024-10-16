@@ -1,0 +1,17 @@
+{
+  "name": "app-ui3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@2196",
+    "nuxt": "^3.13.2"
+  }
+}
