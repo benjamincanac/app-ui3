@@ -11,7 +11,12 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@2196",
-    "nuxt": "^3.13.2"
+    "@iconify-json/lucide": "^1.2.12",
+    "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@0bfe2b6",
+    "nuxt": "^3.14.159"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vue-tsc": "^2.1.10"
   }
 }
