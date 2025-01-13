@@ -8,15 +8,15 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.12",
-    "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@0bfe2b6",
-    "nuxt": "^3.14.159"
+    "@iconify-json/lucide": "^1.2.22",
+    "@nuxt/ui-pro": "https://pkg.pr.new/@nuxt/ui-pro@e37ce0b",
+    "nuxt": "^3.15.1"
   },
   "devDependencies": {
-    "typescript": "^5.6.3",
-    "vue-tsc": "^2.1.10"
+    "typescript": "^5.7.3",
+    "vue-tsc": "^2.2.0"
   }
 }
