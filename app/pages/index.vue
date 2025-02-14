@@ -1,31 +1,25 @@
 <template>
-  <div>
-    <UAccordion :items="items">
-      <template #content="{ item }">
-        {{ item.propthatisnottypedbyui }}
-      </template>
-    </UAccordion>
+  <div class="flex flex-col items-center justify-center gap-4 h-screen">
+    <h1 class="font-bold text-2xl text-(--ui-primary)">
+      Nuxt UI v3 - Playground
+    </h1>
 
-    <UColorPicker />
+    <div class="flex items-center gap-2">
+      <UButton
+        label="Documentation"
+        icon="i-lucide-square-play"
+        to="https://ui3.nuxt.dev/getting-started/installation/nuxt"
+        target="_blank"
+      />
+
+      <UButton
+        label="GitHub"
+        color="neutral"
+        variant="outline"
+        icon="i-simple-icons-github"
+        to="https://github.com/nuxt/ui"
+        target="_blank"
+      />
+    </div>
   </div>
 </template>
-
-<script setup lang="ts">
-const items = ref([
-  {
-    label: 'Icons',
-    icon: 'i-lucide-smile',
-    propthatisnottypedbyui: 'You have nothing to do, @nuxt/icon will handle it automatically.'
-  },
-  {
-    label: 'Colors',
-    icon: 'i-lucide-swatch-book',
-    propthatisnottypedbyui: 'Choose a primary and a neutral color from your Tailwind CSS theme.'
-  },
-  {
-    label: 'Components',
-    icon: 'i-lucide-box',
-    propthatisnottypedbyui: 'You can customize components by using the `class` / `ui` props or in your app.config.ts.'
-  }
-])
-</script>
